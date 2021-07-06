@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/process-argv",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Array containing command-line arguments passed when launching the calling process.",
   "license": "Apache-2.0",
   "author": {
