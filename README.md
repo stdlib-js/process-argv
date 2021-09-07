@@ -87,6 +87,22 @@ console.log( ARGV );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/process/env`][@stdlib/process/env]: object containing the user environment.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -141,6 +157,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/process-argv/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/process/env]: https://github.com/stdlib-js/process-env
+
+<!-- </related-links> -->
 
 </section>
 
