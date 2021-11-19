@@ -20,7 +20,7 @@ limitations under the License.
 
 # ARGV
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Array containing command-line arguments passed when launching the calling process.
 
@@ -95,7 +95,7 @@ console.log( ARGV );
 
 ## See Also
 
--   [`@stdlib/process/env`][@stdlib/process/env]: object containing the user environment.
+-   <span class="package-name">[`@stdlib/process/env`][@stdlib/process/env]</span><span class="delimiter">: </span><span class="description">object containing the user environment.</span>
 
 </section>
 
@@ -146,8 +146,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/process-argv/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/process-argv?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/process-argv.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/process-argv/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
