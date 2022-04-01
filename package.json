@@ -1,0 +1,35 @@
+{
+  "name": "@stdlib/process-argv",
+  "version": "0.0.0",
+  "description": "Array containing command-line arguments passed when launching the calling process.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/process-argv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "stdutil",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "process",
+    "argv",
+    "arguments",
+    "args",
+    "command-line",
+    "cli"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
