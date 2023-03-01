@@ -103,7 +103,7 @@ console.log( ARGV );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/process/env`][@stdlib/process/env]</span><span class="delimiter">: </span><span class="description">object containing the user environment.</span>
+-   <span class="package-name">[`@stdlib/process-env`][@stdlib/process/env]</span><span class="delimiter">: </span><span class="description">object containing the user environment.</span>
 
 </section>
 
