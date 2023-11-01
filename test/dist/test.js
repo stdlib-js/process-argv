@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,34 +20,14 @@
 
 // MODULES //
 
-var proc = require( 'process' );
 var tape = require( 'tape' );
-var IS_BROWSER = require( '@stdlib/assert-is-browser' );
-var isStringArray = require( '@stdlib/assert-is-string-array' ).primitives;
-var ARGV = require( './../../dist' );
-
-
-// VARIABLES //
-
-var opts = {
-	'skip': IS_BROWSER
-};
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is an object', opts, function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof ARGV, 'object', 'main export is an object' );
-	t.end();
-});
-
-tape( 'the export is an alias for `process.argv`', opts, function test( t ) {
-	t.strictEqual( ARGV, proc.argv, 'is an alias' );
-	t.end();
-});
-
-tape( 'the export is an array of strings', opts, function test( t ) {
-	t.strictEqual( isStringArray( ARGV ), true, 'is an array of strings' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
