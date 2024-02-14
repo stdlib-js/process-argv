@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ARGV from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-argv@esm/index.mjs';
+import ARGV from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-argv@v0.2.0-esm/index.mjs';
 ```
 
 #### ARGV
@@ -85,7 +85,7 @@ var execPath = ARGV[ 0 ];
 <body>
 <script type="module">
 
-import ARGV from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-argv@esm/index.mjs';
+import ARGV from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-argv@v0.2.0-esm/index.mjs';
 
 console.log( ARGV );
 // => [...]
