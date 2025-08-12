@@ -85,7 +85,7 @@ var execPath = ARGV[ 0 ];
 -   Any additional elements are additional command-line arguments.
 -   In browser environments, `ARGV` is an **empty** array.
 -   Modifications to `ARGV` are local to the process in which `ARGV` is modified.
--   Be careful when modifying command-line arguments as the argument array represents shared state. Accordingly, modifications affect all command-line argument consumers. 
+-   Be careful when modifying command-line arguments as the argument array represents shared state. Accordingly, modifications affect all command-line argument consumers.
 
 </section>
 
@@ -148,7 +148,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
