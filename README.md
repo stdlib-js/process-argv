@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ARGV from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-argv@deno/mod.js';
+import ARGV from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-argv@v0.2.2-deno/mod.js';
 ```
 
 #### ARGV
@@ -80,7 +80,7 @@ var execPath = ARGV[ 0 ];
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import ARGV from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-argv@deno/mod.js';
+import ARGV from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-argv@v0.2.2-deno/mod.js';
 
 console.log( ARGV );
 // => [...]
